@@ -1,3 +1,3 @@
-module github.com/gewenrui/testmod
+module github.com/WenRuige/testmod
 
 go 1.12
