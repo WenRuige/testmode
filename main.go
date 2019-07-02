@@ -1,9 +1,11 @@
-package testmod
+package main
 
-import "fmt"
+import "github.com/astaxie/beego"
 
-func Hi(name string) string {
-	return fmt.Sprintf("Hi,%s", name)
+import "github.com/WenRuige/testmod/utils"
+
+func main() {
+
+	utils.ToolSay();
+	beego.Run()
 }
-
-
